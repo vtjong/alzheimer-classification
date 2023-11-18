@@ -1,1 +1,1 @@
-# alzheimer_classification
+# alzheimer-classification
