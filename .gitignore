@@ -1,8 +1,11 @@
-disc1
-disc2
+data2/disc1
+data2/disc2
 images
 myenv
 NIFTI_Images
 OAS2_RAW_Part1.tar.gz
+OAS2_RAW_Part2.tar.gz
+data2/OAS2_RAW_Part1
+data2/OAS2_RAW_Part2
 oasis_cross-sectional_disc1.tar.gz
 oasis_cross-sectional_disc2.tar.gz
