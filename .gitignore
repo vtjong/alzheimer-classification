@@ -12,4 +12,5 @@ oasis_cross-sectional_disc2.tar.gz
 # converted_images
 selected_images
 notebooks/wandb
+notebooks/model_checkpoints
 .ipynb_checkpoints
