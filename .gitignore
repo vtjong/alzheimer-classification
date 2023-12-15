@@ -17,7 +17,7 @@ notebooks/wandb
 notebooks/model_checkpoints
 .ipynb_checkpoints
 3d/.DS_Store
-*.pt
+2d/X_train_resnet.pt
 *.yaml
 *.log
 *.wandb
