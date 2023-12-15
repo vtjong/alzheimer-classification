@@ -21,3 +21,4 @@ notebooks/model_checkpoints
 *.yaml
 *.log
 *.wandb
+2d/model_checkpoints/
