@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/var/folders/1x/23xb47sx0675p75hlkw93bfr0000gn/T/ipykernel_54547/323291059.py", line 59, in train_model
+    WandbModelCheckpoint(model, epoch, acc)
+  File "/var/folders/1x/23xb47sx0675p75hlkw93bfr0000gn/T/ipykernel_54547/1089816073.py", line 10, in __init__
+    if not os.path.exists(dirpath): os.makedirs(dirpath)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen genericpath>", line 19, in exists
+TypeError: stat: path should be string, bytes, os.PathLike or integer, not DeepCNNModel

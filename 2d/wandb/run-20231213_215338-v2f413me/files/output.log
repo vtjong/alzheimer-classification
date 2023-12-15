@@ -1,0 +1,7 @@
+
+[W NNPACK.cpp:64] Could not initialize NNPACK! Reason: Unsupported hardware.
+Traceback (most recent call last):
+  File "/var/folders/1x/23xb47sx0675p75hlkw93bfr0000gn/T/ipykernel_52391/2127682255.py", line 57, in train_model
+    wandb.WandbModelCheckpoint(dirpath='model-{epoch:02d}-{val_acc:.2f}')
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'wandb' has no attribute 'WandbModelCheckpoint'

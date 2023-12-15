@@ -1,0 +1,45 @@
+2023-12-13 23:07:05,145 INFO    Thread-11 (_run_job):60199 [wandb_setup.py:_flush():76] Current SDK version is 0.16.1
+2023-12-13 23:07:05,145 INFO    Thread-11 (_run_job):60199 [wandb_setup.py:_flush():76] Configure stats pid to 60199
+2023-12-13 23:07:05,146 INFO    Thread-11 (_run_job):60199 [wandb_setup.py:_flush():76] Loading settings from /Users/valenetjong/.config/wandb/settings
+2023-12-13 23:07:05,146 INFO    Thread-11 (_run_job):60199 [wandb_setup.py:_flush():76] Loading settings from /Users/valenetjong/alzheimer-classification/notebooks/wandb/settings
+2023-12-13 23:07:05,146 INFO    Thread-11 (_run_job):60199 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'project': '2D-masked-imgs', 'entity': 'valenetjong', 'root_dir': '/Users/valenetjong/alzheimer-classification/notebooks', 'run_id': 'ftzkm6l0', 'sweep_param_path': '/Users/valenetjong/alzheimer-classification/notebooks/wandb/sweep-qs2p82s9/config-ftzkm6l0.yaml', 'sweep_id': 'qs2p82s9'}
+2023-12-13 23:07:05,146 INFO    Thread-11 (_run_job):60199 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-12-13 23:07:05,146 INFO    Thread-11 (_run_job):60199 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-12-13 23:07:05,146 INFO    Thread-11 (_run_job):60199 [wandb_init.py:_log_setup():524] Logging user logs to /Users/valenetjong/alzheimer-classification/notebooks/wandb/run-20231213_230705-ftzkm6l0/logs/debug.log
+2023-12-13 23:07:05,146 INFO    Thread-11 (_run_job):60199 [wandb_init.py:_log_setup():525] Logging internal logs to /Users/valenetjong/alzheimer-classification/notebooks/wandb/run-20231213_230705-ftzkm6l0/logs/debug-internal.log
+2023-12-13 23:07:05,146 INFO    Thread-11 (_run_job):60199 [wandb_init.py:_jupyter_setup():470] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x199521c10>
+2023-12-13 23:07:05,147 INFO    Thread-11 (_run_job):60199 [wandb_init.py:init():564] calling init triggers
+2023-12-13 23:07:05,147 INFO    Thread-11 (_run_job):60199 [wandb_init.py:init():571] wandb.init called with sweep_config: {'batch_size': 24, 'conv_hid_size': 32, 'conv_in_size': 128, 'conv_out_size': 32, 'dropout': 0.15, 'fc_size': 256, 'hidden_size': 8, 'lr': 0.001, 'max_epochs': 250}
+config: {}
+2023-12-13 23:07:05,147 INFO    Thread-11 (_run_job):60199 [wandb_init.py:init():614] starting backend
+2023-12-13 23:07:05,147 INFO    Thread-11 (_run_job):60199 [wandb_init.py:init():618] setting up manager
+2023-12-13 23:07:05,153 INFO    Thread-11 (_run_job):60199 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2023-12-13 23:07:05,153 INFO    Thread-11 (_run_job):60199 [wandb_init.py:init():624] backend started and connected
+2023-12-13 23:07:05,162 INFO    Thread-11 (_run_job):60199 [wandb_run.py:_config_callback():1342] config_cb None None {'batch_size': 24, 'conv_hid_size': 32, 'conv_in_size': 128, 'conv_out_size': 32, 'dropout': 0.15, 'fc_size': 256, 'hidden_size': 8, 'lr': 0.001, 'max_epochs': 250}
+2023-12-13 23:07:05,169 INFO    Thread-11 (_run_job):60199 [wandb_run.py:_label_probe_notebook():1294] probe notebook
+2023-12-13 23:07:05,169 INFO    Thread-11 (_run_job):60199 [wandb_run.py:_label_probe_notebook():1304] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2023-12-13 23:07:05,169 INFO    Thread-11 (_run_job):60199 [wandb_init.py:init():716] updated telemetry
+2023-12-13 23:07:05,205 INFO    Thread-11 (_run_job):60199 [wandb_init.py:init():749] communicating run to backend with 90.0 second timeout
+2023-12-13 23:07:05,455 INFO    Thread-11 (_run_job):60199 [wandb_run.py:_on_init():2254] communicating current version
+2023-12-13 23:07:05,565 INFO    Thread-11 (_run_job):60199 [wandb_run.py:_on_init():2263] got version response 
+2023-12-13 23:07:05,565 INFO    Thread-11 (_run_job):60199 [wandb_init.py:init():800] starting run threads in backend
+2023-12-13 23:07:09,471 INFO    Thread-11 (_run_job):60199 [wandb_run.py:_console_start():2233] atexit reg
+2023-12-13 23:07:09,471 INFO    Thread-11 (_run_job):60199 [wandb_run.py:_redirect():2088] redirect: wrap_raw
+2023-12-13 23:07:09,471 INFO    Thread-11 (_run_job):60199 [wandb_run.py:_redirect():2153] Wrapping output streams.
+2023-12-13 23:07:09,471 INFO    Thread-11 (_run_job):60199 [wandb_run.py:_redirect():2178] Redirects installed.
+2023-12-13 23:07:09,472 INFO    Thread-11 (_run_job):60199 [wandb_init.py:init():841] run started, returning control to user process
+2023-12-13 23:44:35,297 INFO    MainThread:60199 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-12-13 23:44:35,298 INFO    MainThread:60199 [wandb_init.py:_pause_backend():435] pausing backend
+2023-12-13 23:45:36,831 INFO    Thread-11 (_run_job):60199 [wandb_run.py:_finish():1962] finishing run valenetjong/2D-masked-imgs/ftzkm6l0
+2023-12-13 23:45:36,833 ERROR   Thread-11 (_run_job):60199 [jupyter.py:save_history():437] Run pip install nbformat to save notebook history
+2023-12-13 23:45:36,833 INFO    Thread-11 (_run_job):60199 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-12-13 23:45:36,833 INFO    Thread-11 (_run_job):60199 [wandb_init.py:_jupyter_teardown():452] cleaning up jupyter logic
+2023-12-13 23:45:36,833 INFO    Thread-11 (_run_job):60199 [wandb_run.py:_atexit_cleanup():2202] got exitcode: 0
+2023-12-13 23:45:36,833 INFO    Thread-11 (_run_job):60199 [wandb_run.py:_restore():2185] restore
+2023-12-13 23:45:36,834 INFO    Thread-11 (_run_job):60199 [wandb_run.py:_restore():2191] restore done
+2023-12-13 23:45:40,126 INFO    Thread-11 (_run_job):60199 [wandb_run.py:_footer_history_summary_info():3837] rendering history
+2023-12-13 23:45:40,128 INFO    Thread-11 (_run_job):60199 [wandb_run.py:_footer_history_summary_info():3869] rendering summary
+2023-12-13 23:45:40,135 INFO    Thread-11 (_run_job):60199 [wandb_run.py:_finish():1962] finishing run valenetjong/2D-masked-imgs/ftzkm6l0
+2023-12-13 23:45:40,135 ERROR   Thread-11 (_run_job):60199 [jupyter.py:save_history():437] Run pip install nbformat to save notebook history
+2023-12-13 23:45:40,135 INFO    Thread-11 (_run_job):60199 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-12-13 23:45:40,135 INFO    Thread-11 (_run_job):60199 [wandb_init.py:_jupyter_teardown():452] cleaning up jupyter logic
