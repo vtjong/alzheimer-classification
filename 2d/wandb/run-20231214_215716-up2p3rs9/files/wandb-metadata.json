@@ -1,0 +1,44 @@
+{
+    "os": "macOS-10.16-x86_64-i386-64bit",
+    "python": "3.11.4",
+    "heartbeatAt": "2023-12-15T02:57:17.353404",
+    "startedAt": "2023-12-15T02:57:16.934184",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "<python with no main file>",
+    "codePathLocal": null,
+    "git": {
+        "remote": "https://github.com/vtjong/alzheimer-classification.git",
+        "commit": "5da22eb014242ae951de1b81b0afb683411b7e28"
+    },
+    "email": "vyt3@cornell.edu",
+    "root": "/Users/valenetjong/alzheimer-classification",
+    "host": "Valenes-MacBook-Pro.local",
+    "username": "valenetjong",
+    "executable": "/Users/valenetjong/opt/anaconda3/envs/nlp-m/bin/python",
+    "cpu_count": 8,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 2400,
+        "min": 2400,
+        "max": 2400
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2400,
+            "min": 2400,
+            "max": 2400
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 460.4317207336426,
+            "used": 382.82567977905273
+        }
+    },
+    "memory": {
+        "total": 8.0
+    }
+}

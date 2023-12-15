@@ -12,5 +12,12 @@ oasis_cross-sectional_disc2.tar.gz
 # converted_images
 selected_images
 notebooks/wandb
+2d/wandb/
+3d/wandb/
 notebooks/model_checkpoints
 .ipynb_checkpoints
+3d/.DS_Store
+*.pt
+*.yaml
+*.log
+*.wandb
