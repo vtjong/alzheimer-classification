@@ -9,5 +9,16 @@ data2/OAS2_RAW_Part1
 data2/OAS2_RAW_Part2
 oasis_cross-sectional_disc1.tar.gz
 oasis_cross-sectional_disc2.tar.gz
-converted_images
+# converted_images
 selected_images
+notebooks/wandb
+2d/wandb/
+3d/wandb/
+notebooks/model_checkpoints
+.ipynb_checkpoints
+3d/.DS_Store
+2d/X_train_resnet.pt
+*.yaml
+*.log
+*.wandb
+2d/model_checkpoints/
